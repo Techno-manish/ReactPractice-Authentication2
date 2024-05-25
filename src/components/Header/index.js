@@ -23,12 +23,15 @@ const Header = props => {
               alt="website logo"
             />
 
-            <button type="button" className="nav-mobile-btn">
+            <button
+              type="button"
+              className="nav-mobile-btn"
+              onClick={onClickLogout}
+            >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
                 alt="nav logout"
                 className="nav-bar-img"
-                onClick={onClickLogout}
               />
             </button>
           </div>
